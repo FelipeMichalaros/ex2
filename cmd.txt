@@ -1,0 +1,4 @@
+psql -h localhost -p 5432 -U felipe -d banco
+
+javac -cp postgresql-42.7.2.jar: Principal.java
+java -cp postgresql-42.7.2.jar: Principal
